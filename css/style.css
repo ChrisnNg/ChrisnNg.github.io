@@ -219,7 +219,7 @@ textarea {
     display: block;
     padding: 1.2rem;
     border-bottom: 2px solid #eee;
-    transition: background .3s; }
+    transition: background 0.3s; }
     .home-hero__social-icon-link:hover {
       background: rgba(255, 255, 255, 0.1); }
     .home-hero__social-icon-link--bd-none {
@@ -671,6 +671,13 @@ textarea {
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
+
+.lang {
+  background-color: #dafefe; }
+
+.test {
+  background-color: #2e8b57;
+  color: whitesmoke; }
 
 .mouse {
   width: 25px;
