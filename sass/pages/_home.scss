@@ -22,8 +22,8 @@
   &__socials {
     position: absolute;
     top: 50%;
-    border: 2px solid #eee;
-    border-left: 2px solid #eee;
+    // border: 2px solid #eee;
+    // border-left: 2px solid #eee;
     transform: translateY(-50%);
     @include respond(tab-port) {
       display: none;
@@ -42,13 +42,16 @@
 
   &__social {
     width: 5rem;
+    border: 2px solid #eee;
+    border-radius: 25%;
+    margin-bottom: 6px;
   }
 
   &__social-icon-link {
     width: 100%;
     display: block;
     padding: 1.2rem;
-    border-bottom: 2px solid #eee;
+    // border-bottom: 2px solid #eee;
     transition: background 0.3s;
 
     &:hover {
