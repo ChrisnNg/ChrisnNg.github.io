@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Cat_Park</title>
     <meta name="description" content="Cat_Park Details" />
-
+    <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="css/squares.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,7 +27,7 @@
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Chris Ng</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -82,14 +82,26 @@
         </div>
       </div>
     </header>
-    <section class="project-cs-hero">
+    <section class="project-cs-hero area">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 2</h1>
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <h1 class="heading-primary">Cat_Park</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            A interactive heat-map of paid parking spots available in Vancouver
+            cross-mapped against Vancouver Police department's database of
+            documented crimes. Built with <strong>Golang</strong>.
           </p>
         </div>
         <div class="project-cs-hero__cta">
@@ -111,49 +123,53 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                Written as a final project, Cat_Park was built from scratch
+                using Facebook's Create-React-App and features
+                <strong
+                  >Vancouver Police Department's extensive record of crimes
+                  database</strong
+                >. It takes data from 534,506 points of documented crimes to
+                plot a heatmap. Adding distinction to the types of crimes, the
+                map can be filtered from general crime to car specific crimes.
+                This is also built in conjunction with
+                <strong>Vancouver's Parking Meters API</strong> and integrates
+                them altogether to create a map to help with finding safe
+                parking in Vancouver.
               </p>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                In tackling the final project, we saw two pathways to impressing
+                potential employers and making our application stand out. One
+                used the languages we learned within the course and furthering
+                the depth of knowledge we had within it. The other tackled
+                learning a new language we haven't touched and immediately
+                implementing it within our project to show our capabilities to
+                learn. We went with both; enhancing our knowledge in React.js
+                and learning Golang from scratch to implement it.
               </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill lang">HTML</div>
+                <div class="skills__skill lang">CSS</div>
+                <div class="skills__skill lang">JavaScript</div>
+                <div class="skills__skill lang">Golang</div>
+                <div class="skills__skill">JSX</div>
                 <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
                 <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
+                <div class="skills__skill">Postgres</div>
               </div>
             </div>
             <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
+              <h3 class="project-details__content-title">Associated Links</h3>
+              <!-- <a
                 href="#"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
                 >Live Link</a
-              >
+              > -->
               <a
-                href="#"
+                href="https://github.com/ChrisnNg/cat_park"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a

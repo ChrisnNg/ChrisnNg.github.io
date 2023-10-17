@@ -679,7 +679,8 @@ textarea {
   animation-iteration-count: infinite; }
 
 .lang {
-  background-color: #dafefe; }
+  background-color: #8f00ff;
+  color: whitesmoke; }
 
 .test {
   background-color: #2e8b57;
