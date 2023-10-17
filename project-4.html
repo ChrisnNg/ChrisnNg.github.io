@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript: The Stack Data Structure</title>
+    <meta name="description" content="Jungle Rails Details" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/squares.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/jpg/pinkhoodie.jpg"
+              alt="Chris Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Chris Ng</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero area">
+      <div class="project-cs-hero__content">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <h1 class="heading-primary">Javascript: The Stack Data Structure</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            A deep dive on dive into how we can avoid the dreaded blocking, and
+            how Javascript- a synchronous language with a single call stack, can
+            perform almost asynchronously.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="https://medium.com/@cristopherng/javascript-the-stack-data-structure-54d5d2e1905b" class="btn btn--bg" target="_blank">Article Link</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/gif/Callstack.gif"
+              alt="Call stack gif"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Article Overview</h3>
+              <p class="project-details__desc-para">
+                You might have often heard that Javascript is a single-threaded
+                language, but what does that really mean? A simple query will
+                return:
+                <blockquote class="project-details__desc-para">
+                  Javascript has a single call stack and memory heap.
+                </blockquote>
+              </p>
+              <p class="project-details__desc-para">
+                In layman's terms, it means that code is executed in the order it is read and won't move onto the next until it finishes. For those just beginning to learn to code, this might seem expected. Because who doesn't want their code to execute in order? But the words 'won't move onto the next until it finishes' can carry a nefarious implication. Today, I want to dive into how we can avoid the dreaded 'blocking', and how Javascript- a synchronous language with a single call stack, can perform almost asynchronously.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill lang">HTML</div>
+                <div class="skills__skill lang">CSS</div>
+                <div class="skills__skill lang">JavaScript</div>
+                <div class="skills__skill lang">Ruby on Rails</div>
+                <div class="skills__skill">Stripe Integration</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">Postgres</div>
+                <div class="skills__skill test">Capybara</div>
+                <div class="skills__skill test">PhantomJS</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Associated Links</h3>
+              <!-- <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              > -->
+              <a
+                href="https://medium.com/@cristopherng/javascript-the-stack-data-structure-54d5d2e1905b"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Medium</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/christopherkyleng/"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/ChrisnNg"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/cristopherng/"
+              >
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Chris Ng</h4>
+            <p class="main-footer__short-desc">
+              Automating out redundancies and creating efficiency-focused
+              improvements.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2023.
+          <a rel="noreferrer" target="_blank" href="https://github.com/ChrisnNg"
+            >Chris Ng</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
